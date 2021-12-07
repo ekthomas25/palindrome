@@ -20,15 +20,14 @@ A palindrome is any word, phrase, number, or other sequence of characters that r
 
 Create a console application that includes a method to identify whether a word is a palindrome. It should return true if the user-provided word is a palindrome and false if it is not.
 
-<!-- ## Setup & Installation Instructions
+## Setup & Installation Instructions
 
 1. Download or clone github repository to local machine in desired directory - https://github.com/url-path
 2. If downloaded, extract .zip contents to desired directory
 3. Navigate to and open directory with Visual Studio Code
-4. Open terminal and install required packages by typing "npm install"
-5. Test code in terminal by typing "npm test"
-6. Build the display environment in the terminal by typing "npm run build"
-7. Run the environment in your default web browser by typing "npm run start" in the terminal -->
+4. Open terminal and run $ dotnet restore 
+5. Test code in terminal run the command $ dotnet test
+6. ????????????
 
 ## Known Bugs
 
@@ -86,7 +85,7 @@ BL
 methods:
 - char [] arr = String.ToCharArray();
 - Array.Reverse(arr) 
-- compare both array if it's equal 
+- compare both arrays if it's equal 
 - array1 == array2 
 
 arr variableName = str.ToCharArray(3, 4);
